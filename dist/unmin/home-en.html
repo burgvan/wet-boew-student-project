@@ -42,7 +42,7 @@
 				text-align:center;
 			}
 			.txt-aln-ctr{
-				text-align: center;
+				padding: 10px 89px;
 			}
 			.hdr-clr{
 				color:#0e4164;
@@ -67,13 +67,16 @@
 			border-left:20px solid transparent;
 			border-right:20px solid transparent;
 			border-top: 25px solid #0e4164;
+			position:relative;
+			z-index: 9999px;
 		}
 		.title-banner p a{
 			color:#f2f2f2;
 		}
 		.github-update{
-			padding:10px 0 10px 0;
 			background-color: #eaebed;
+			padding:27px 0 27px 0;
+			margin-top: -25px;
 		}
 		.github-update p {
 			margin:0;
@@ -85,6 +88,12 @@
 		}
 		.logo-imgs2{
 			margin-top:34px;
+		}
+		.dwnld-btn{
+			font-weight:bold;
+		}
+		.gitmsg{
+			font-weight: bold;
 		}
 		</style>
 	</head>
@@ -200,13 +209,8 @@
 
 
 
-
 <div class="row main-top-clr">
-
-			
-
 	<section class="row">
-
 		<div class="col-md-3"></div>
 		<div class="col-md-6">
 			<!-- choose which is better, new img tag or the version copied from the logo in the header -->
@@ -217,31 +221,20 @@
 	<div class="col-md-12 txt-aln-ctr">
 			<p>The Web Experience Toolkit is free software for building websites that are accessible, usable, interoperable, mobile-friendly and multilingual.</p>
 		</div>
-
-
 	</section>
-
-		<div class="row">
-			<div class="col-md-12">
-				<a href="docs/versions/dwnld-en.html" class="btn btn-default btn-lg btn-pos" role="button">Download v4.0</a>
-			</div>
-		</div>
-
-
+		<a href="docs/versions/dwnld-en.html" class="btn btn-default btn-lg dwnld-btn" role="button">Download v4.0</a>
 </div>
-		
-<div class="row">
-	<div class="col-md-12">
-		<div class="tri-arrow"></div>
-	</div>
-</div>
+
+<div class="tri-arrow"></div>
+
+
 <!-- Need to add GitHub data display -->
 <div class="row github-update">
-	<div class="col-md-12">
 		<!-- Remove and add automatically updating GitHub info -->
-		<p><span class="gitmsg">Github Update: </span><span class="gitmsg amount">24 pull requests merged by 3 people 5 hours ago</span></p>
-	</div>
+		<p><span class="gitmsg">Github Update: </span><span class="gitmsg">24 pull requests</span> merged by <span class="gitmsg">3 people</span> 5 hours ago</p>
 </div>
+
+
 <!-- Need to add slider with quotes and links from articles about WET -->
 
 <section class="row">
