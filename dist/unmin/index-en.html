@@ -41,8 +41,11 @@
 				color:#eaebed;
 				text-align:center;
 			}
+			.main-top-clr object{
+				width: 58%;
+			}
 			.txt-aln-ctr{
-				text-align: center;
+				padding: 10px 89px;
 			}
 			.hdr-clr{
 				color:#0e4164;
@@ -67,13 +70,16 @@
 			border-left:20px solid transparent;
 			border-right:20px solid transparent;
 			border-top: 25px solid #0e4164;
+			position:relative;
+			z-index: 9999px;
 		}
 		.title-banner p a{
 			color:#f2f2f2;
 		}
 		.github-update{
-			padding:10px 0 10px 0;
 			background-color: #eaebed;
+			padding:27px 0 27px 0;
+			margin-top: -25px;
 		}
 		.github-update p {
 			margin:0;
@@ -85,6 +91,35 @@
 		}
 		.logo-imgs2{
 			margin-top:34px;
+		}
+		.dwnld-btn{
+			font-weight:bold;
+		}
+		.gitmsg{
+			font-weight: bold;
+		}
+		#highlight{
+			background-color: #bdccd4;
+			color: #0e4164;
+			padding: 20px 25px 20px 25px;
+		}
+		.big-font {
+			margin-top: -32px;
+			font-size: 85px;
+			float: left;
+		}
+		.right {
+			margin-top: -16px;
+			margin-bottom: -20px;
+			float: right;
+		}
+		.logo{
+			margin:0 auto;
+		}
+		@media (max-width: 980px){
+		.img-responsive{
+			max-width: 30%;
+		}
 		}
 		</style>
 	</head>
@@ -200,15 +235,10 @@
 
 
 
-
 <div class="row main-top-clr">
-
-			
-
 	<section class="row">
 
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
+		<div class="logo">
 			<!-- choose which is better, new img tag or the version copied from the logo in the header -->
 			<!--<img src="images/logo.svg" class="img-responsive" alt="Logo for Web Experience Toolkit"> -->
 			<object type="image/svg+xml" tabindex="-1" data="./assets/logo.svg"></object>
@@ -217,32 +247,27 @@
 	<div class="col-md-12 txt-aln-ctr">
 			<p>The Web Experience Toolkit is free software for building websites that are accessible, usable, interoperable, mobile-friendly and multilingual.</p>
 		</div>
-
-
 	</section>
-
-		<div class="row">
-			<div class="col-md-12">
-				<a href="docs/versions/dwnld-en.html" class="btn btn-default btn-lg btn-pos" role="button">Download v4.0</a>
-			</div>
-		</div>
-
-
+		<a href="docs/versions/dwnld-en.html" class="btn btn-default btn-lg dwnld-btn" role="button">Download v4.0</a>
 </div>
-		
-<div class="row">
-	<div class="col-md-12">
-		<div class="tri-arrow"></div>
-	</div>
-</div>
+
+<div class="tri-arrow"></div>
+
+
 <!-- Need to add GitHub data display -->
 <div class="row github-update">
-	<div class="col-md-12">
 		<!-- Remove and add automatically updating GitHub info -->
-		<p><span class="gitmsg">Github Update: </span><span class="gitmsg amount">24 pull requests merged by 3 people 5 hours ago</span></p>
+		<p><span class="gitmsg">Github Update: </span><span class="gitmsg">24 pull requests</span> merged by <span class="gitmsg">3 people</span> 5 hours ago</p>
+</div>
+
+
+<!-- Need to add slider with quotes and links from articles about WET -->
+<div class="row">
+	<div id="highlight">
+		<p><span class="big-font">&ldquo;</span><strong>...The award-winning Web Experience Toolkit has been translated to more than 30 languages and is one of, if not the most active government open source projects.</strong><span class="big-font right">&rdquo;</span></p>
+		<a href="https://government.github.com/stories/canadian-web-experience-toolkit/"><strong>Read article</strong></a>
 	</div>
 </div>
-<!-- Need to add slider with quotes and links from articles about WET -->
 
 <section class="row">
 
