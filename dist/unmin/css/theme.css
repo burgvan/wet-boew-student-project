@@ -418,6 +418,27 @@ New CSS changes to the new Getting Started page added Aug 05th, 2014
   border-bottom: 1px solid #eee;
   padding-bottom: 15px; }
 
+.ttl-bnr {
+  padding-bottom: 15px;
+  background-color: #0e4164;
+  color: #eaebed; }
+  .ttl-bnr a {
+    color: #eaebed; }
+
+.hdr-clr {
+  color: #0e4164; }
+
+.bx-clr {
+  height: 100px;
+  background-color: #eaebed;
+  border: 1px solid #fff; }
+  .bx-clr h3 {
+    margin-top: 10px; }
+
+.ul-syl {
+  padding: 0;
+  list-style: none; }
+
 /*
  Views
  */
