@@ -2,7 +2,7 @@
 /*!
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
- * v4.0.5-development - 2014-08-08
+ * v4.0.5-development - 2014-08-13
  *
  *//*
  *
@@ -353,6 +353,8 @@ New CSS design changes for global
         color: #7fd3f4; }
       .newdesign .wb-pg-bnr a:visited {
         color: #d4abfc; }
+  .newdesign .zero-paddingleft {
+    padding-left: 0; }
 
 /*
 New CSS changes to the new Getting Started page added Aug 05th, 2014 
@@ -411,6 +413,10 @@ New CSS changes to the new Getting Started page added Aug 05th, 2014
   #get-started-steps details .theme-link h2 {
     font-size: 18px;
     margin-top: 20px; }
+
+.sectborder {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px; }
 
 /*
  Views
