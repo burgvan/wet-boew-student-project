@@ -7,7 +7,7 @@
 		<meta charset="utf-8" />
 		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-		<title>Sites Web qui se servent de la BOEW
+		<title>Activités
 
 	
 		
@@ -22,22 +22,22 @@
 </title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
-		<meta name="description" content="Sites Web qui se servent de la BOEW - Documentation - Boîte à outils de l&#x27;expérience Web (BOEW)" />
+		<meta name="description" content="Upcoming and past events related to the Web Experience Toolkit." />
 		<!-- Meta data-->
 		<!--[if gte IE 9 | !IE ]><!-->
-<link href="../../assets/favicon.ico" rel="icon" type="image/x-icon" />
-<link rel="stylesheet" href="../../css/wet-boew.css" />
+<link href="../assets/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="../css/wet-boew.css" />
 <!--<![endif]-->
-<link rel="stylesheet" href="../../css/theme.css" />
-
+<link rel="stylesheet" href="../css/theme.css" />
+<link rel="stylesheet" href="css/events.css" />
 <!--[if lt IE 9]>
-<link href="../../assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="../../css/ie8-wet-boew.css" />
+<link href="../assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="../css/ie8-wet-boew.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-<script src="../../js/ie8-wet-boew.js"></script>
+<script src="../js/ie8-wet-boew.js"></script>
 <![endif]-->
 
-<noscript><link rel="stylesheet" href="../../css/noscript.css" /></noscript>
+<noscript><link rel="stylesheet" href="../css/noscript.css" /></noscript>
 
 	</head>
 
@@ -67,7 +67,7 @@
 	<li class="curr">Français&#32;<span>(actuel)</span></li>
 
 
-	<li><a lang="en" hreflang="en" href="wetsites-en.html">English</a></li>
+	<li><a lang="en" hreflang="en" href="events-en.html">English</a></li>
 
 </ul>
 
@@ -91,8 +91,8 @@
 					<div class="row">
 
 						<div id="wb-sttl" class="col-md-8">
-							<a href="../../index-fr.html">
-	<object type="image/svg+xml" tabindex="-1" data="../../assets/logo.svg"></object>
+							<a href="../index-fr.html">
+	<object type="image/svg+xml" tabindex="-1" data="../assets/logo.svg"></object>
 	<span>Boîte à outils de l'expérience Web<span class="wb-inv">, </span><small>Projet à source ouverte collaboratif dirigé par le Gouvernement du Canada</small></span>
 </a>
 
@@ -118,7 +118,7 @@
 				</div>
 			</div>
 
-			<nav role="navigation" id="wb-sm" data-ajax-fetch="../../ajax/sitemenu-fr.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+			<nav role="navigation" id="wb-sm" data-ajax-fetch="../ajax/sitemenu-fr.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
 				<div class="container nvbar">
 	<h2>Menu des sujets</h2>
     <div class="row">
@@ -143,21 +143,21 @@
 	<div class="row">
 		<ol class="breadcrumb">
 			<li>
-				<a href="../../index-fr.html">Accueil</a>
+				<a href="../index-fr.html">Accueil</a>
 			</li>
 
 	
 		
 			
 					<li>
-						<a href="../../docs/index-fr.html">Documentation</a>
+						<a href="../docs/index-fr.html">Documentation</a>
 					</li>
 				
 			
 		
 	
 
-			<li>Sites Web qui se servent de la BOEW</li>
+			<li>Activités</li>
 		</ol>
 	</div>
 </div>
@@ -170,43 +170,64 @@
 
 		<main role="main" property="mainContentOfPage" class="container">
 
-			<div class="row"><h1 id="wb-cont" property="name">Sites Web qui se servent de la BOEW</h1>
+			<div class="row"><h1 id="wb-cont" property="name">Activités</h1>
 </div>
 			
 
 
-	
-
 
 			
-<section>
-	<h2>Sites Web du gouvernement du Canada</h2>
-	<ul>
-		<li><a href="http://www.canada.ca/fr/index.html">Canada.ca</a></li>
-		<li><a href="http://voyage.gc.ca">Voyage.gc.ca</a></li>
-		<li><a href="http://nouvelles.gc.ca">Nouvelles.gc.ca</a></li>
-		<li><a href="http://www.cic.gc.ca/francais/index.asp">Citoyenneté et Immigration Canada</a></li>
-		<li><a href="http://www.canadiensensante.gc.ca">Canadiens en santé</a></li>
-		<li><a href="http://www.scc-csc.gc.ca/home-accueil/index-fra.aspx">Cour suprême du Canada</a></li>
-		<li>40+ minstères du gouvernement du Canada</li>
-	</ul>
+<section class="row">
+	<div  class="col-md-12">
+		<h2>Activités à venir</h2>
+	</div>
+	<div class="col-md-4 col-md-push-8 evt-cal-pdng">
+		<div id="upcoming-events"></div>
+	</div>
+	<div class="col-md-8 col-md-pull-4">
+		<div class="wb-calevt" data-calevt-src="upcoming-events">
+			<ol class="upcoming-evt-ol">
+				<li>
+					<section>
+						<h3><a href="http://wet-boew.github.io/codefest/index-fr.html">Codefest de la BOEW 2014</a></h3>
+						<p><strong>Date : </strong><time datetime="2014-08-14">14 août 2014 </time>et<time datetime="2014-08-15">15 août 2014</time></p>
+						<p><strong>Lieu : </strong>Université Carleton</p>
+						<p>Organisée tous les étés à Ottawa, Codefest 2014 est une activité ouverte à tous les fonctionnaires. 
+						Contributeurs et organisations collaboratrices à la BOEW.</p> 
+						<p><strong><a href="http://www.eventbrite.ca/e/codefest-2014-festicode-2014-tickets-12118128649">Incrivez-vous dès maintenant!</a></strong></p>
+					</section>
+				</li>
+			</ol>
+		</div>
+	</div>
 </section>
-
-<section>
-	<h2>Autres sites Web</h2>
-	<ul>
-		<li><a href="http://ottawa.ca/fr">Site Web de la ville d'Ottawa</a></li>
-		<li><a href="https://github.com/open-data/ckanext-wet-boew">Extension de CKAN qui ajoute la Boîte à outils de l'expérience Web à CKAN 2.0</a></li>
-		<li><a href="http://www.a11yqc.org/">a11yQC</a></li>
-		<li><a href="http://ngmp.ca/">Plan de surveillance générale du Nunavut (PSGN)</a></li>
-		<li><a href="http://www.collegesdelontario.ca/">Colleges de l'Ontario</a></li>
-	</ul>
+<section class="row past-evt">
+	<div class="col-md-12">
+		<h2>Activités passées</h2>
+		<div class="past-evt-bdr">
+			<section class="row">
+				<div class="col-md-12">
+					<h3>Codefest de la BOEW 2013</h3>
+					<p><strong>Date : </strong>8 et 9 août 2013</p>
+					<p>Codefest de la BOEW 2013 a eu lieu le 8 et 9 août 2013 à l’Université d’Ottawa. Cet événement a permis de bâtir une collectivité solide visant à accroître les taux d’adoption et à faire participer de nouveaux chefs de projets.</p>
+					<p><a href="https://www.youtube.com/watch?v=UkRwPqqeR_k"><strong>Vidéos de Codefest 2013</strong></a></p>
+				</div>
+			</section>
+			<section class="row">
+				<div class="col-md-12">
+					<h3>Journée de la découverte de la BOEW</h3>
+					<p><strong>Date : </strong>17 août 2012</p>
+					<p>La Journée de la découverte de la BOEW était une journée basée sur la collaboration organisée à l’intention des gestionnaires de sites Web, des centres d’expertise (CE) et de la BOEW. Cette journée a permis aux contributeurs de mieux connaître et développer la Boîte à outils de l’expérience Web (BOEW).</p>
+				</div>
+			</section>
+		</div>
+	</div>
 </section>
 
 
 			<dl id="wb-dtmd">
 	<dt>Date de modification&#160;:&#32;</dt>
-	<dd><time property="dateModified">2014-04-17</time></dd>
+	<dd><time property="dateModified">2014-07-31</time></dd>
 </dl>
 
 
@@ -227,7 +248,7 @@
 <section class="col-sm-3">
 	<h3>À propos</h3>
 	<ul class="list-unstyled">
-		<li><a href="../../index-fr.html#apropos">À propos de la Boîte à outils de l’expérience Web</a></li>
+		<li><a href="../index-fr.html#apropos">À propos de la Boîte à outils de l’expérience Web</a></li>
 		<li><a href="http://www.tbs-sct.gc.ca/ws-nw/index-fra.asp">À propos des normes Web</a></li>
 	</ul>
 </section>
@@ -251,10 +272,10 @@
 
 		<!--[if gte IE 9 | !IE ]><!-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-<script src="../../js/wet-boew.js"></script>
+<script src="../js/wet-boew.js"></script>
 <!--<![endif]-->
 <!--[if lt IE 9]>
-<script src="../../js/ie8-wet-boew2.js"></script>
+<script src="../js/ie8-wet-boew2.js"></script>
 <![endif]-->
 
 
